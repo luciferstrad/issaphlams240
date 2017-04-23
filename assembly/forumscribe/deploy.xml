@@ -1,0 +1,27 @@
+<Deploy>
+  <learningLibraryList>
+    <learningLibrary>
+      <libraryInsertScriptPath>C:\ISSA\LAMS240_DEV1\lams_build/assembly/forumscribe/sql/learninglibrary1_insert.sql</libraryInsertScriptPath>
+      <templateActivityInsertScriptPath>C:\ISSA\LAMS240_DEV1\lams_build/assembly/forumscribe/sql/libraryActivity1_insert.sql</templateActivityInsertScriptPath>
+      <toolActivityList>
+        <toolActivity>
+          <toolSignature>lafrum11</toolSignature>
+          <toolActivityInsertScriptPath>C:\ISSA\LAMS240_DEV1\lams_build/assembly/forumscribe/sql/toolActivity1_insert.sql</toolActivityInsertScriptPath>
+        </toolActivity>
+        <toolActivity>
+          <toolSignature>lascrb11</toolSignature>
+          <toolActivityInsertScriptPath>C:\ISSA\LAMS240_DEV1\lams_build/assembly/forumscribe/sql/toolActivity2_insert.sql</toolActivityInsertScriptPath>
+        </toolActivity>
+      </toolActivityList>
+      <learningLibraryId>0</learningLibraryId>
+      <parentActivityId>0</parentActivityId>
+      <languageFileDirectory>C:\ISSA\LAMS240_DEV1\lams_build/assembly/forumscribe/language</languageFileDirectory>
+      <languageFileRoot>ApplicationResources</languageFileRoot>
+    </learningLibrary>
+  </learningLibraryList>
+  <dbDriverClass>com.mysql.jdbc.Driver</dbDriverClass>
+  <dbDriverUrl>jdbc:mysql://localhost:3303/lams?characterEncoding=utf8&amp;zeroDateTimeBehavior=convertToNull&amp;autoReconnect=true&amp;useUnicode=true</dbDriverUrl>
+  <dbUsername>lams</dbUsername>
+  <dbPassword>lamsdemo</dbPassword>
+  <lamsEarPath>C:/jboss/server/default/deploy//lams.ear</lamsEarPath>
+</Deploy>
